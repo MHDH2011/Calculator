@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+    <link rel="shortcut icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <div id="input">
+            <input id="input_bar" type="text" readonly>
+        </div>
+    
+        <div id="buttons">
+    
+            <div class="row">
+                <button id="memory-clear" disabled>MC</button>
+                <button id="memory-recall" disabled>MR</button>
+                <button id="memory-plus">M+</button>
+                <button id="memory-minus">M-</button>
+                <button id="memory-store">MS</button>
+            </div>
+    
+            <div class="row">
+                <button id="pi" value="pi">\(π\)</button>
+                <button id="factorial">\(n!\)</button>
+                <button id="ln">\(ln\)</button>
+                <button id="clear">C</button>
+                <button id="backspace">Bksp</button>
+            </div>
+    
+    
+            <div class="row">
+                <button id="abs">\(|x|\)</button>
+                <button id="floor">\(\lfloor x \rfloor\)</button>
+                <button id="ceil">\(\lceil x \rceil\)</button>
+                <button id="left-parenthesis" value="(">(</button>
+                <button id="right-parenthesis" value=")">)</button>
+            </div>
+    
+            <div class="row">
+                <button id="seven" class="number" value="7">7</button>
+                <button id="eight" class="number" value="8">8</button>
+                <button id="nine" class="number" value="9">9</button>
+                <button id="root">\(\sqrt[y]{x}\)</button>
+                <button id="power" value="^">\( x^y \)</button>
+            </div>
+    
+            <div class="row">
+                <button id="four" class="number" value="4">4</button>
+                <button id="five" class="number" value="5">5</button>
+                <button id="six" class="number" value="6">6</button>
+                <button id="multiply" value="*">\(×\)</button>
+                <button id="divide" value="/">\(÷\)</button>
+            </div>
+            
+            <div class="row">
+                <button id="one" class="number" value="1">1</button>
+                <button id="two" class="number" value="2">2</button>
+                <button id="three" class="number" value="3">3</button>
+                <button id="plus" value="+">\(+\)</button>
+                <button id="minus" value="-">\(-\)</button>
+            </div>
+    
+            <div class="row">
+                <button id="symmertic">+\(/\)-</button>
+                <button id="zero" class="number" value="0">0</button>
+                <button id="dot" value=".">\(.\)</button>
+                <button id="equal" onclick="execute()">\(=\)</button>
+            </div>
+        </div>
+    </div>
+
+    <p id="copyright">© 2025 Developed by Mohammadhosein Doostani Hendijani</p>
+
+    <script src="https://cdn.jsdelivr.net/npm/mathjs@12.4.1/lib/browser/math.js"></script>
+    <script src="index.js" defer></script>
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+</body>
+</html>
