@@ -1,7 +1,7 @@
 body {
-    background-color: #08745a;
+    background-color: #e39c0d;
     text-align: center;
-    font-family: 'Calibri';
+    font-family: "Calibri";
 }
 
 #calculator {
@@ -14,7 +14,6 @@ body {
     display: inline-block;
     position: relative;
 }
-
 
 #input_bar {
     width: 500.5px;
@@ -57,11 +56,15 @@ button:hover {
     background-color: #fff9c4;
 }
 
-.number, #symmertic, #dot {
+.number,
+#symmertic,
+#dot {
     background-color: #87e9ff;
 }
 
-.number:hover, #symmertic:hover, #dot:hover {
+.number:hover,
+#symmertic:hover,
+#dot:hover {
     background-color: #c0f3ff;
 }
 
@@ -77,10 +80,10 @@ button:hover {
 }
 
 #copyright {
-  position: absolute;
-  bottom: 0px;
-  left: 10px;
-  font-size: 0.9em;
-  color: white;
-  cursor: pointer;
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    font-size: 0.9em;
+    color: white;
+    cursor: pointer;
 }
